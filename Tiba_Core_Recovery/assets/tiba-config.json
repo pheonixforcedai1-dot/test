@@ -1,0 +1,172 @@
+{
+  "appInfo": {
+    "name": "Tiba",
+    "packageId": "com.tibamedical"
+  },
+  "features": {
+    "drugSearch": {
+      "enabled": true
+    },
+    "diseaseSearch": {
+      "enabled": false
+    },
+    "aiChat": {
+      "enabled": true
+    },
+    "aiChatButton": {
+      "enabled": true
+    },
+    "specialists": {
+      "enabled": false
+    },
+    "facebookLogin": {
+      "enabled": false
+    },
+    "favoritesBackup": {
+      "enabled": true
+    },
+    "statisticsCollection": {
+      "enabled": false
+    },
+    "bottomNavigation": {
+      "enabled": false
+    },
+    "userNotes": {
+      "enabled": true
+    },
+    "userNotesBackup": {
+      "enabled": true
+    },
+    "localPrescriptions": {
+      "enabled": true
+    },
+    "localPrescriptionsBackup": {
+      "enabled": true
+    },
+    "autoImportPrescriptions": {
+      "enabled": true
+    },
+    "subscriptionReviews": {
+      "enabled": true
+    }
+  },
+  "subscriptionReviewContent": {
+    "title": "Join professionals",
+    "socialProof": {
+      "rating": "4.5",
+      "ratingsCount": 225,
+      "downloads": "50K+"
+    },
+    "reviews": [
+      {
+        "author": "محمد شوقي",
+        "quote": "بارك الله في اللي عمله مستوي فخم التطبيق بيتيحلك حاجات كتير منها بتتعرف علي سعر الدواء ايه البدائل ليه Dosing Mechanism of action Side effects Contraindications…",
+        "stars": 5
+      },
+      {
+        "author": "mahmoud hamd",
+        "quote": "تطبيق رائع",
+        "stars": 5
+      },
+      {
+        "author": "Aseel Khalid",
+        "quote": "جميييل جدا فيه كل حاجه ، كل المعلومات والاسعار و very affordable وال developers متعاونين جدا وذوق جدا وبيردوا على طول لو في اي مشكله او محتاجين اي تجديد",
+        "stars": 5
+      },
+      {
+        "author": "Karim Saeed",
+        "quote": "ممتاز",
+        "stars": 5
+      },
+      {
+        "author": "omar Ashraf",
+        "quote": "excellent app with nice & useful features. stay updated and keep going.",
+        "stars": 5
+      },
+      {
+        "author": "Walaa Mohamed",
+        "quote": "الحمد لله نزلته واللي تعامل معى ع الواتس ف قمة الذوق والتطبيق جميل جدا",
+        "stars": 5
+      },
+      {
+        "author": "محمد عصمت",
+        "quote": "تحفه",
+        "stars": 5
+      },
+      {
+        "author": "Huda A.Marzouq",
+        "quote": "جميل جداً وطريقة الدخول للتطبيق مبتكرة ومحمسة 🌹",
+        "stars": 5
+      }
+    ]
+  },
+  "api": {
+    "baseURL": "https://app.tiba-app.com"
+  },
+  "legal": {
+    "termsURL": "https://tiba-app.com/terms",
+    "privacyURL": "https://tiba-app.com/privacy"
+  },
+  "navigation": {
+    "homePageType": "drugs"
+  },
+  "targetCountry": "egypt",
+  "alternativePaymentHelpText": "لو بتواجه اي مشكله في الدفع او تريد الدفع عبر طرق دفع اخرى مثل فودافون كاش أو انستا باي إضغط هنا للتواصل عبر واتس اب",
+  "billing": {
+    "subscriptions": {
+      "model": "dual",
+      "masterProductId": "com.tibamedical.subscriptions",
+      "basicMonthly": {
+        "basePlanId": "com-tibamedical-pro-monthly",
+        "name": "Pro",
+        "description": "Essential medical information and unlimited access to drug databases"
+      },
+      "basicYearly": {
+        "basePlanId": "com-tibamedical-pro-yearly",
+        "name": "Pro",
+        "description": "Essential medical information and unlimited access to drug databases"
+      },
+      "aiMonthly": {
+        "basePlanId": "com-tibamedical-premium-with-ai-monthly",
+        "name": "Premium AI",
+        "description": "All basic features plus AI-powered medical assistant with personalized recommendations"
+      },
+      "aiYearly": {
+        "basePlanId": "com-tibamedical-premium-with-ai-yearly",
+        "name": "Premium AI",
+        "description": "All basic features plus AI-powered medical assistant with personalized recommendations"
+      }
+    },
+    "credits": {
+      "small": {
+        "productId": "com.tibamedical.ai.credits.small",
+        "credits": 50,
+        "name": "Small Credits Pack"
+      },
+      "medium": {
+        "productId": "com.tibamedical.ai.credits.medium",
+        "credits": 150,
+        "name": "Medium Credits Pack"
+      },
+      "large": {
+        "productId": "com.tibamedical.ai.credits.large",
+        "credits": 300,
+        "name": "Large Credits Pack"
+      }
+    }
+  },
+  "analytics": {
+    "posthog": {
+      "enabled": true,
+      "apiKey": "phc_BTbYtBTUhiW5Wg1r8mtYBAvQ85KxdQCVeJLj2D6gxTm",
+      "host": "https://us.i.posthog.com"
+    },
+    "appsflyer": {
+      "enabled": true,
+      "devKey": "PiKyuMM7jgJZ5mhZNCT9Ra"
+    }
+  },
+  "onboarding": {
+    "enabled": true
+  }
+}

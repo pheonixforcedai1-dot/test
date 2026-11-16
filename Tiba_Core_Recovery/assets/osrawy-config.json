@@ -1,0 +1,116 @@
+{
+  "appInfo": {
+    "name": "Osrawy",
+    "packageId": "com.osrawy"
+  },
+  "features": {
+    "drugSearch": {
+      "enabled": false
+    },
+    "diseaseSearch": {
+      "enabled": true
+    },
+    "aiChat": {
+      "enabled": false
+    },
+    "aiChatButton": {
+      "enabled": false
+    },
+    "specialists": {
+      "enabled": false
+    },
+    "facebookLogin": {
+      "enabled": false
+    },
+    "favoritesBackup": {
+      "enabled": false
+    },
+    "statisticsCollection": {
+      "enabled": false
+    },
+    "bottomNavigation": {
+      "enabled": false
+    },
+    "userNotes": {
+      "enabled": false
+    },
+    "userNotesBackup": {
+      "enabled": false
+    },
+    "localPrescriptions": {
+      "enabled": false
+    },
+    "localPrescriptionsBackup": {
+      "enabled": false
+    },
+    "autoImportPrescriptions": {
+      "enabled": false
+    },
+    "subscriptionReviews": {
+      "enabled": false
+    }
+  },
+  "subscriptionReviewContent": {
+    "title": "Join professionals",
+    "reviews": []
+  },
+  "api": {
+    "baseURL": "https://app.osrawy.com"
+  },
+  "legal": {
+    "termsURL": "https://osrawy.com/terms",
+    "privacyURL": "https://osrawy.com/privacy-policy"
+  },
+  "navigation": {
+    "homePageType": "disease"
+  },
+  "targetCountry": "egypt",
+  "alternativePaymentHelpText": "لو بتواجه اي مشكله في الدفع او تريد الدفع عبر طرق دفع اخرى مثل فودافون كاش أو انستا باي إضغط هنا للتواصل عبر واتس اب",
+  "billing": {
+    "subscriptions": {
+      "model": "single",
+      "masterProductId": "com.osrawy.subscriptions",
+      "monthly": {
+        "basePlanId": "com-osrawy-premium-monthly",
+        "name": "Premium",
+        "description": "Essential medical information and unlimited access to specialist databases"
+      },
+      "yearly": {
+        "basePlanId": "com-osrawy-premium-yearly",
+        "name": "Premium",
+        "description": "Essential medical information and unlimited access to specialist databases"
+      }
+    },
+    "credits": {
+      "small": {
+        "productId": "com.osrawy.ai.credits.small",
+        "credits": 50,
+        "name": "Small Credits Pack"
+      },
+      "medium": {
+        "productId": "com.osrawy.ai.credits.medium",
+        "credits": 150,
+        "name": "Medium Credits Pack"
+      },
+      "large": {
+        "productId": "com.osrawy.ai.credits.large",
+        "credits": 300,
+        "name": "Large Credits Pack"
+      }
+    }
+  },
+  "analytics": {
+    "posthog": {
+      "enabled": true,
+      "apiKey": "phc_5XkpRl04cfmzNp0gAZZJcMgiUXYBmqZyiIJ7ulJNHO8",
+      "host": "https://us.i.posthog.com"
+    },
+    "appsflyer": {
+      "enabled": false,
+      "devKey": ""
+    }
+  },
+  "onboarding": {
+    "enabled": true
+  }
+}
